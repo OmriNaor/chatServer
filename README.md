@@ -58,3 +58,24 @@ To get started with ChatServer:
 1. Compile the project as described in the "Running the Server" section.
 2. Run the server on your desired port.
 3. Connect multiple clients to test real-time messaging capabilities.
+
+## Example Scenarios
+
+This section illustrates a few example scenarios to demonstrate the chat server's behavior under different conditions:
+
+### Multi-Client Chat Session
+A conversation involving three clients, where the third client joins partway through the chat. This scenario demonstrates the server's ability to manage multiple connections and distribute messages accordingly.
+
+![Full Chat Session](https://github.com/OmriNaor/chatServer/assets/106623821/eb8eacf4-c153-4e29-bd43-bc38dbe7187a)
+
+### Client Disconnection
+An example where the first client disconnects from the chat. This demonstrates the server's capability to handle client disconnections gracefully, ensuring the remaining clients can continue their conversation without interruption.
+
+![Client Leaves Chat](https://github.com/OmriNaor/chatServer/assets/106623821/7b0634d0-1577-4c23-9354-53044ef1ad7d)
+
+### Server Shutdown
+This scenario shows what happens when the server shuts down unexpectedly during an ongoing conversation. It illustrates the server's behavior in closing connections and the impact on the chat session.
+
+![Server Shutdown](https://github.com/OmriNaor/chatServer/assets/106623821/f83cdf5a-367b-4f23-9069-d534e766ca4d)
+
+
